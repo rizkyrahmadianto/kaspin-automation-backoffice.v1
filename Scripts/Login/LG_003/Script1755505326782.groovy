@@ -22,7 +22,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 // --- LANGKAH 1: BUKA BROWSER DAN AKSES HALAMAN UTAMA ---
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://adonis.kpntr.com/')
+WebUI.navigateToUrl('https://laravel-qa.kpntr.com')
 
 WebUI.maximizeWindow()
 
@@ -32,7 +32,7 @@ TestObject burgerMenu = new TestObject('burgerMenu')
 
 burgerMenu.addProperty('xpath', ConditionType.EQUALS, '//*[@id="navbar-main"]/div/button')
 
-TestObject tombolMasukHeader = findTestObject('Landing Page_Kasir Pintar Aplikasi Kasir Digital untuk UMKM Indonesia/a_Daftar_btn_login_page')
+TestObject tombolMasukHeader = findTestObject('Landing Page_Kasir Pintar/a_Daftar_btn_login_page')
 
 // Logika untuk klik tombol Masuk di header
 if (WebUI.verifyElementVisible(burgerMenu, FailureHandling.OPTIONAL)) {
@@ -63,7 +63,7 @@ WebUI.verifyElementPresent(findTestObject('Halaman Login Owner/select_Daftar di 
 println('Verifikasi "Masuk Sebagai Owner" berhasil.')
 
 // 4. Masukkan E-Mail Owner yang valid.
-WebUI.setText(findTestObject('Halaman Login Owner/input_Daftar di sini_email'), 'rizkymanual1@yopmail.com')
+WebUI.setText(findTestObject('Halaman Login Owner/input_Daftar di sini_email'), 'rizkymanual96@yopmail.com')
 
 println('Email berhasil diinput.')
 
@@ -81,36 +81,56 @@ WebUI.click(findTestObject('Halaman Login Owner/button_Daftar di sini_g-recaptch
 
 println('Tombol Masuk di form login diklik. Menunggu redirect...')
 
-WebUI.delay(5) // Beri waktu 5 detik agar pesan error (jika ada) sempat muncul.
+WebUI.delay(5 // Beri waktu 5 detik agar pesan error (jika ada) sempat muncul.
+    )
 
 // --- EKSPEKTASI: VERIFIKASI HASIL LOGIN DENGAN 3 KEMUNGKINAN URL ---
 WebUI.waitForPageLoad(20 // Beri waktu lebih lama untuk redirect setelah login
     )
 
 // Definisikan 3 kemungkinan URL sukses
-String urlAppTour = 'https://adonis.kpntr.com/account/app_tour'
+String urlAppTour = 'https://laravel-qa.kpntr.com/account/app_tour'
 
-String urlFreeDashboard = 'https://adonis.kpntr.com/account/monitoring_data/show_dapat/show_untung'
+String urlFreeDashboard = 'https://laravel-qa.kpntr.com/account/monitoring_data/show_dapat/show_untung'
 
-String urlProDashboard = 'https://adonis.kpntr.com/account'
+String urlProDashboard = 'https://laravel-qa.kpntr.com/account'
 
 // Dapatkan URL saat ini setelah login
 String actualUrl = WebUI.getUrl()
 
 // Lakukan pengecekan
-if (actualUrl.equals(urlProDashboard)) {
+// Lakukan pengecekan dengan struktur IF-ELSE IF-ELSE yang benar
+if (actualUrl.equals(urlAppTour)) {
+    // --- Skenario Khusus: Masuk ke Halaman App Tour ---
+    println('Login Sukses. Diarahkan ke Halaman App Tour: ' + actualUrl)
+    
+    // Klik tombol "Nanti" atau "Lewati"
+    // **PENTING**: Pastikan Test Object ini benar-benar menunjuk ke tombol "Nanti".
+    // Nama object Anda "Mulai Panduan" sepertinya kurang sesuai.
+    WebUI.click(findTestObject('Halaman Login Owner/Page_Kasir Pintar/a_Mulai Panduan_font-14 font-green medium'))
+    println('Tombol "Nanti" di halaman App Tour diklik. Menunggu redirect ke dashboard...')
+    
+    // Tunggu halaman dashboard dimuat setelah klik "Nanti"
+    WebUI.waitForPageLoad(10)
+    
+    // Ambil LAGI URL saat ini untuk verifikasi akhir
+    String dashboardUrl = WebUI.getUrl()
+    
+    // Sekarang verifikasi apakah kita sudah di dashboard yang benar
+    if (dashboardUrl.equals(urlProDashboard) || dashboardUrl.equals(urlFreeDashboard)) {
+        KeywordUtil.markPassed('Berhasil melewati App Tour dan diarahkan ke Dashboard: ' + dashboardUrl)
+    } else {
+        KeywordUtil.markFailed('Gagal diarahkan ke Dashboard setelah klik "Nanti". URL saat ini: ' + dashboardUrl)
+    }
+
+} else if (actualUrl.equals(urlProDashboard)) {
     println('Login Sukses. Diarahkan ke Dashboard PRO: ' + actualUrl)
 
-    KeywordUtil.markPassed('Login berhasil dan diarahkan ke dashboard PRO.' // Jika URL tidak cocok dengan salah satu dari tiga di atas, maka GAGAL
-        )
+    KeywordUtil.markPassed('Login berhasil dan diarahkan ke dashboard PRO.')  // Jika URL tidak cocok dengan salah satu dari tiga di atas, maka GAGAL
 } else if (actualUrl.equals(urlFreeDashboard)) {
     println('Login Sukses. Diarahkan ke Dashboard FREE: ' + actualUrl)
 
     KeywordUtil.markPassed('Login berhasil dan diarahkan ke dashboard FREE.')
-} else if (actualUrl.equals(urlAppTour)) {
-    println('Login Sukses. Diarahkan ke Halaman App Tour (Akun Baru): ' + actualUrl)
-
-    KeywordUtil.markPassed('Login berhasil dan diarahkan ke halaman App Tour.')
 } else {
     KeywordUtil.markFailed('Login Gagal. URL setelah login tidak sesuai ekspektasi. URL saat ini: ' + actualUrl)
 }
@@ -119,3 +139,4 @@ WebUI.delay(5) // Beri waktu 5 detik agar pesan error (jika ada) sempat muncul.
 
 // --- FINAL: TUTUP BROWSER ---
 WebUI.closeBrowser()
+

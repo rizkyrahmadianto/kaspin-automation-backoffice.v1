@@ -21,7 +21,7 @@ import org.openqa.selenium.Keys as Keys
 // 1. Buka Browser dan navigasi ke URL target
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://adonis.kpntr.com/')
+WebUI.navigateToUrl('https://laravel-qa.kpntr.com')
 
 WebUI.maximizeWindow( // Sebaiknya maximize window untuk memastikan konsistensi
     )
@@ -33,7 +33,7 @@ TestObject burgerMenu = new TestObject('burgerMenu')
 burgerMenu.addProperty('xpath', ConditionType.EQUALS, '//*[@id="navbar-main"]/div/button')
 
 // Test Object untuk tombol 'Masuk'. Asumsinya path ini sudah benar.
-TestObject tombolMasuk = findTestObject('Landing Page_Kasir Pintar Aplikasi Kasir Digital untuk UMKM Indonesia/a_Daftar_btn_login_page')
+TestObject tombolMasuk = findTestObject('Landing Page_Kasir Pintar/a_Daftar_btn_login_page')
 
 // 3. Logika untuk mengecek tampilan Mobile atau Desktop
 // Cek apakah tombol burgerMenu terlihat.
@@ -49,8 +49,8 @@ if (WebUI.verifyElementVisible(burgerMenu, FailureHandling.OPTIONAL)) {
     WebUI.waitForElementClickable(tombolMasuk, 10)
 
     // Klik tombol 'Masuk'
-    WebUI.click(tombolMasuk) // ---- KONDISI DESKTOP ----
-    // Langsung klik tombol 'Masuk' karena sudah terlihat
+    WebUI.click(tombolMasuk // ---- KONDISI DESKTOP ----
+        ) // Langsung klik tombol 'Masuk' karena sudah terlihat
 } else {
     println('Tampilan Desktop terdeteksi.')
 
@@ -61,8 +61,8 @@ if (WebUI.verifyElementVisible(burgerMenu, FailureHandling.OPTIONAL)) {
 // Pastikan URL yang diharapkan sudah benar. Seringkali URL login ada di subdomain berbeda.
 // Contoh: 'https://app.development.kpntr.com/login'. Sesuaikan jika perlu.
 WebUI.verifyEqual(WebUI.getUrl(), 'https://adonis.kpntr.com/login')
-//WebUI.verifyUrl('https://adonis.kpntr.com/login')
 
+//WebUI.verifyUrl('https://adonis.kpntr.com/login')
 println('Berhasil masuk ke halaman login.')
 
 // 5. Tutup Browser
