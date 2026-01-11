@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Veriifkasi berhasil akses register dari halaman Landing Page</description>
+   <name>RG_001</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8dda5be6-1d1c-4630-95d8-738c1dc2839e</testCaseGuid>
+</TestCaseEntity>

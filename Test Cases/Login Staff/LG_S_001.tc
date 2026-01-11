@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify login staff</description>
+   <name>LG_S_001</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>10f4d487-b2c0-4e51-968b-923be9079dd9</testCaseGuid>
+</TestCaseEntity>

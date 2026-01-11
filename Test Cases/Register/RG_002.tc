@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Veriifkasi berhasil akses register dari button CTA</description>
+   <name>RG_002</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>49df7675-9684-44ed-9e18-b15745e2b876</testCaseGuid>
+</TestCaseEntity>

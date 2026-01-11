@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Popup Marketing</name>
+   <tag></tag>
+   <elementGuidId>d0de57e7-fd77-4d9f-ad97-cb6066c2e021</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.img-fluid</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='staticBackdropAds']/div/div/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>d0f47926-3e09-48d2-bd85-a961c75a6fa5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://skaspin.sgp1.digitaloceanspaces.com/DataGambarArticleCampaign/lp-kasir-pintar.webp</value>
+      <webElementGuid>e59725c3-0b51-4fb2-8833-d48cfcd97d1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Kasir Pintar</value>
+      <webElementGuid>9ac520b8-9f2b-42d8-a560-2f1a6eff941a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-fluid</value>
+      <webElementGuid>1ba9cf49-060b-49b5-acc0-4a40b05e9400</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;staticBackdropAds&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/a[1]/img[@class=&quot;img-fluid&quot;]</value>
+      <webElementGuid>0ea7f562-6fd4-4795-b711-c86a025af27f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='staticBackdropAds']/div/div/a/img</value>
+      <webElementGuid>28ae763c-0ac8-411a-96fe-bc9021a63681</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>(//img[@alt='Kasir Pintar'])[21]</value>
+      <webElementGuid>0e931e98-165a-43d6-a04b-234c31a89003</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/a/img</value>
+      <webElementGuid>16ce67be-0ddb-4339-82e9-eb341739f58a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://skaspin.sgp1.digitaloceanspaces.com/DataGambarArticleCampaign/lp-kasir-pintar.webp' and @alt = 'Kasir Pintar']</value>
+      <webElementGuid>7b02fd74-91f6-4fe3-aaf8-7c36de01e1b1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

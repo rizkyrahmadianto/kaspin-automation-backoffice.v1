@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button Close PopUp Marketing</name>
+   <tag></tag>
+   <elementGuidId>1f4b7834-b5bc-458b-942c-dd6bfb0c84e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#staticBackdropAds > div.modal-dialog.modal-dialog-centered > div.modal-content > i.fas.fa-times.mouse.font-24-sb.mouse.position-absolute.font-white.top-0.start-100.translate-middle</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//i[@onclick='setCookieLP()']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>91d43d5c-922a-4ad4-a164-2fed208ea266</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-times mouse font-24-sb mouse position-absolute font-white top-0 start-100 translate-middle</value>
+      <webElementGuid>2a6122d7-8db7-4587-bc64-654d9375dfe4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-dismiss</name>
+      <type>Main</type>
+      <value>modal</value>
+      <webElementGuid>b418b1eb-6bde-4fe2-9216-3ef654a81a57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>setCookieLP()</value>
+      <webElementGuid>424fd08e-489f-4212-8677-7780a2c845fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;staticBackdropAds&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/i[@class=&quot;fas fa-times mouse font-24-sb mouse position-absolute font-white top-0 start-100 translate-middle&quot;]</value>
+      <webElementGuid>b98ae6fb-1659-4820-828c-a2983649ce7a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//i[@onclick='setCookieLP()']</value>
+      <webElementGuid>4bcef93f-8117-4f5a-8720-e7d7ae9ffc40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='staticBackdropAds']/div/div/i</value>
+      <webElementGuid>451293b5-027e-44e0-a53f-16e33bc578bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/i</value>
+      <webElementGuid>f5cd1121-b829-4457-9776-a9cc30f0c6f7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
