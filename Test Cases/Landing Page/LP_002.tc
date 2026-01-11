@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi berhasil akses ke halaman Harga dan download Kasir Pintar PRO</description>
+   <name>LP_002</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a520e5df-cc65-4afd-bff3-8d1d18df95d2</testCaseGuid>
+</TestCaseEntity>

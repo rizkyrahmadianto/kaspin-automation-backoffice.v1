@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi berhasil akses Landing Page produk Kasir Pintar Pro</description>
+   <name>LP_001</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>77f09f42-6de0-4d9e-986e-1a5526c07974</testCaseGuid>
+</TestCaseEntity>
