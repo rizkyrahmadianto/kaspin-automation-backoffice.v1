@@ -18,7 +18,18 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.openBrowser('https://laravel-qa.kpntr.com/login')
-WebUI.newTab('https://laravel-qa.kpntr.com/account')
+//WebUI.newTab('https://laravel-qa.kpntr.com/account')
+
+def currentUrl = WebUI.getUrl(FailureHandling.OPTIONAL)
+
+// Jika browser belum buka ATAU browser terbuka tapi balik ke halaman landing/login
+if (currentUrl == null || currentUrl.contains('login')) {
+	WebUI.callTestCase(findTestCase('Test Cases/Login Owner/LG_001'), [:], FailureHandling.STOP_ON_FAILURE)
+	WebUI.navigateToUrl('https://laravel-qa.kpntr.com/account')
+} else {
+	// Jika masih login, langsung pindah halaman
+	WebUI.navigateToUrl('https://laravel-qa.kpntr.com/account')
+}
 
 //WebUI.maximizeWindow()
 //
@@ -39,6 +50,7 @@ WebUI.newTab('https://laravel-qa.kpntr.com/account')
 //WebUI.waitForPageLoad(20)
 //
 //WebUI.delay(5)
+
 WebUI.verifyElementText(findTestObject('Akses Halaman Barang atau Jasa Repo/Page_Kasir Pintar/Menu Title Database'), 'DATABASE')
 
 WebUI.verifyElementClickable(findTestObject('Akses Halaman Barang atau Jasa Repo/Page_Kasir Pintar/Menu Database'))
@@ -66,7 +78,7 @@ WebUI.verifyElementText(findTestObject('Akses Halaman Barang atau Jasa Repo/Page
 WebUI.selectOptionByValue(findTestObject('Halaman Form Tambah Barang Repo/Page_Kasir Pintar/Form Input Tipe Barang'), 'default', 
     true)
 
-WebUI.uploadFile(findTestObject('Halaman Form Tambah Barang Repo/Page_Kasir Pintar/Form Input Upload Foto Barang'), 'C:\\Users\\MODERN\\Downloads\\Sample file for testing\\png\\file_example_PNG_3MB - Copy - Copy.png')
+//WebUI.uploadFile(findTestObject('Halaman Form Tambah Barang Repo/Page_Kasir Pintar/Form Input Upload Foto Barang'), 'C:\\Users\\MODERN\\Downloads\\Sample file for testing\\png\\file_example_PNG_3MB - Copy - Copy.png')
 
 WebUI.setText(findTestObject('Halaman Form Tambah Barang Repo/Page_Kasir Pintar/Form Input Nama Barang'), 'Barang Default 01')
 

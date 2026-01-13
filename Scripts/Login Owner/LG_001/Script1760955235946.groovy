@@ -60,11 +60,12 @@ if (WebUI.verifyElementVisible(burgerMenu, FailureHandling.OPTIONAL)) {
 // 4. Verifikasi bahwa navigasi ke halaman login berhasil
 // Pastikan URL yang diharapkan sudah benar. Seringkali URL login ada di subdomain berbeda.
 // Contoh: 'https://app.development.kpntr.com/login'. Sesuaikan jika perlu.
-WebUI.verifyEqual(WebUI.getUrl(), 'https://adonis.kpntr.com/login')
+WebUI.verifyEqual(WebUI.getUrl(), 'https://laravel-qa.kpntr.com/login')
 
 //WebUI.verifyUrl('https://adonis.kpntr.com/login')
 println('Berhasil masuk ke halaman login.')
 
+// JANGAN gunakan WebUI.closeBrowser() di sini!
 // 5. Tutup Browser
-WebUI.closeBrowser()
+// WebUI.closeBrowser()
 

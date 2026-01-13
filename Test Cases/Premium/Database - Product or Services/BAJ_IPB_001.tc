@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Barang atau Jasa - Import Produk Baru</description>
+   <name>BAJ_IPB_001</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>db2b4f34-529b-4bc8-bb88-3e24d326716c</testCaseGuid>
+</TestCaseEntity>

@@ -63,7 +63,7 @@ WebUI.verifyElementPresent(findTestObject('Halaman Login Owner/select_Daftar di 
 println('Verifikasi "Masuk Sebagai Owner" berhasil.')
 
 // 4. Masukkan E-Mail Owner yang valid.
-WebUI.setText(findTestObject('Halaman Login Owner/input_Daftar di sini_email'), 'rizkymanual96@yopmail.com')
+WebUI.setText(findTestObject('Halaman Login Owner/input_Daftar di sini_email'), 'rizkymanual1@yopmail.com')
 
 println('Email berhasil diinput.')
 
@@ -140,5 +140,5 @@ WebUI.delay(5 // Beri waktu 5 detik agar pesan error (jika ada) sempat muncul.
     )
 
 // --- FINAL: TUTUP BROWSER ---
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
 
