@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BAJ_Import Produk Baru_Unduh Template SKU</name>
+   <tag></tag>
+   <elementGuidId>59be7461-a2a5-414c-9eae-d78d0e166004</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.button-denied.ml-content</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7e781ee5-7731-4941-86a8-034f155c90fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7f650425-c638-4e4b-a87b-7e264fd2ded9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn button-denied ml-content</value>
+      <webElementGuid>5090743c-31de-42c2-9245-c6f59453f5e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>showDenied()</value>
+      <webElementGuid>c78654c5-5689-4f12-80e5-dd498530958d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Unduh Template</value>
+      <webElementGuid>389cbab3-9109-477f-bede-b615463a4751</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;bg-main&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;main-panel-v2 bg-main&quot;]/div[@class=&quot;padd-main&quot;]/div[@class=&quot;content margin-top-20&quot;]/div[@class=&quot;card padd-card&quot;]/div[@class=&quot;card-body&quot;]/form[1]/ol[@class=&quot;font-16 font-black semi-bold margin-top-10 ol-excel&quot;]/li[1]/button[@class=&quot;btn button-denied ml-content&quot;]</value>
+      <webElementGuid>0b6a0650-06e4-4303-ad65-ed663c865b30</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>7d58db99-b1aa-48de-a084-91a9bf70a203</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unduh Template'])[1]/following::button[1]</value>
+      <webElementGuid>f47d3622-3f1a-4bf7-a0b0-b26885f63c89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MS. Excel 2007 ke atas, LibreOffice'])[1]/preceding::button[1]</value>
+      <webElementGuid>cc6f69d6-0b37-4a18-bdc7-ed16f0e0e79b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/button</value>
+      <webElementGuid>b3df4da1-24d1-42a6-8691-4132ccf40363</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Unduh Template' or . = 'Unduh Template')]</value>
+      <webElementGuid>906af4d3-bcaa-4ee9-af08-fef313eb412d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

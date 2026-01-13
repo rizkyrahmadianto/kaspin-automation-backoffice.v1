@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BAJ_Import Produk Baru_Modal Alert SKU</name>
+   <tag></tag>
+   <elementGuidId>276c73be-b7c9-477b-9073-be9c8de1e4bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::div[6]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.swal2-popup.swal2-modal.swal2-icon-error.swal2-show</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>48daaa20-d850-4def-a49a-762d0fd5dd49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>swal2-title</value>
+      <webElementGuid>7df65f5a-9e1f-4d2b-8ef8-e720f0b3f9b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>swal2-html-container</value>
+      <webElementGuid>17190b60-003d-49bf-abc2-77e72c2f512f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>swal2-popup swal2-modal swal2-icon-error swal2-show</value>
+      <webElementGuid>b272977e-0901-43e6-86cc-354af8b2c7b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>a025e9bb-db51-47bf-8196-d6dd5408d91f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>dialog</value>
+      <webElementGuid>9339e3d9-1731-4743-9f1e-d06fcd7b0ab0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-live</name>
+      <type>Main</type>
+      <value>assertive</value>
+      <webElementGuid>5088bc54-e0ff-4cbe-b4d1-728f6a57ff64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-modal</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>ad53d5a2-ea69-4643-8dd9-810dbc27612e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gtm-vis-recent-on-screen43897413_591</name>
+      <type>Main</type>
+      <value>1551</value>
+      <webElementGuid>902a6d89-ad6b-4a04-beb0-124c558a6513</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gtm-vis-first-on-screen43897413_591</name>
+      <type>Main</type>
+      <value>1551</value>
+      <webElementGuid>eb12a924-625a-4424-9a64-fc0062ea6d68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gtm-vis-total-visible-time43897413_591</name>
+      <type>Main</type>
+      <value>100</value>
+      <webElementGuid>e1d0d1c1-a0d8-498a-aa9a-1bc82ffbfbc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gtm-vis-has-fired43897413_591</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>c27630e9-139f-4225-b144-2e8f1cdbd91f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>×
+    
+    
+  
+Tidak TersediaTemplate SKU tidak tersedia untuk kategori usaha AndaOke, mengertiNoCancel</value>
+      <webElementGuid>d5707147-b685-4194-abbb-4ac309e1d1e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;swal2-shown swal2-height-auto&quot;]/body[@class=&quot;bg-main swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-error swal2-show&quot;]</value>
+      <webElementGuid>b7ffc18d-0760-46e1-8215-4534f31b3255</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::div[6]</value>
+      <webElementGuid>3f68c29c-e3bd-43a2-a9b1-028b71bdda5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter results'])[1]/following::div[6]</value>
+      <webElementGuid>d83278a5-ee5b-4c7f-9c3f-9b6d038b1056</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/div</value>
+      <webElementGuid>50a434ee-32d6-4c95-85d1-557db5878e54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '×&#xd;
+    &#xd;
+    &#xd;
+  &#xd;
+Tidak TersediaTemplate SKU tidak tersedia untuk kategori usaha AndaOke, mengertiNoCancel' or . = '×&#xd;
+    &#xd;
+    &#xd;
+  &#xd;
+Tidak TersediaTemplate SKU tidak tersedia untuk kategori usaha AndaOke, mengertiNoCancel')]</value>
+      <webElementGuid>7f8209ad-6a0a-4f0b-a1b8-343de7cf98d5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

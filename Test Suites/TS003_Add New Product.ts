@@ -25,4 +25,11 @@
       <testCaseId>Test Cases/Premium/Database - Product or Services/AP-D_001</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>f0596cb6-c4f9-41d1-9f5e-2df2fb0bc4d1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Premium/Database - Product or Services/BAJ_IPB_001</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -100,5 +100,5 @@ WebUI.waitForPageLoad(20)
 WebUI.verifyElementText(findTestObject('Akses Halaman Barang atau Jasa Repo/Page_Kasir Pintar/Judul Halaman Barang atau Jasa'), 
     'Barang atau Jasa')
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
 
